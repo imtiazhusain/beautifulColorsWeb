@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+  }
+
+  :root{
+    --bodyColor: rgb(242, 245, 248);
+    --navHading: #212529;
+    --catageryFont:#084177;
+    --primary:#fe346e;
+
+}
+
+  html{
+      font-size: 62.5%;
+  }
+  body {
+    background-color:var(--bodyColor);
+    font-family: poppins,Arial, Helvetica, sans-serif;
+  }
+  header {
+    height: 15rem;
+    background-color: var(--navHading);
+    color: white;
+  }
+  header h1 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    color: var(--primary);
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+
+  
+  }
+
+  .logo img{
+      width: 70px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+     margin: 2rem;
+    padding: 1rem; 
+  }
+  nav a:hover {
+    background-color: cyan;
+    color: black;
+  }
+
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .color {
+    width: 150px;
+    height: 150px;
+  
+    margin: 30px;
+    box-shadow: 5px 5px 5px rgba(26, 25, 25, 0.397);
+    /* border: 3px solid cyan; */
+
+  }
+  .c1 {
+    background-color: tomato;
+  }
+  
+  .c2 {
+    background-color: #fe346e;
+  }
+  .c3 {
+    background-color: #2c003e;
+  }
+  
+  .c4 {
+    background-color: #235952;
+  }
+  .c5 {
+    background-color: #ffac41;
+  }
+  
+  .c6 {
+    background-color: #ff1e56;
+  }
+  .c7 {
+    background-color: #fe346e;
+  }
+  
+  .c8 {
+    background-color: #323232;
+  }
+  .c9 {
+    background-color: #cff1ef;
+  }
+  
+  .c10 {
+    background-color: #9dc6a7;
+  }
+  .c11 {
+    background-color: #d1f5d3;
+  }
+  
+  .c12 {
+    background-color: #ffd1bd;
+  }
+  .c13 {
+    background-color: #f8fab8;
+  }
+  
+  .c14 {
+    background-color: #f8dc88;
+  }
+  .c15 {
+    background-color: #f76a8c;
+  }
+  
+  .c16 {
+    background-color: #fbc490;
+  }
+  .c17 {
+    background-color: #cd8d7b;
+  }
+  
+  .c18 {
+    background-color: #084177;
+  }
+  .c19 {
+    background-color: #f6d186;
+  }
+  
+  .c20 {
+    background-color: #f8dc88;
+  }
+  .c21 {
+    background-color: #cbe2b0;
+  }
+  
+  .c22 {
+    background-color: #f19292;
+  }
+  .c23 {
+    background-color: #639a67;
+  }
+  
+  .c24 {
+    background-color: #18b0b0;
+  }
+  .c25 {
+    background-color: #116979;
+  }
+  
+  .c26 {
+    background-color: #dee3e2;
+  }
+  .c27 {
+    background-color: #de7119;
+  }
+  
+  .c28 {
+    background-color: #f8dc88;
+  }
+  .c29 {
+    background-color: #84a9ac;
+  }
+  
+  .c30 {
+    background-color: #3b6978;
+  }
+  .c31 {
+    background-color: #204051;
+  }
+  
+  .c32 {
+    background-color: #fe346e;
+  }
+  .c33 {
+    background-color: #f1e7b6;
+  }
+  
+  .c34 {
+    background-color: #400082;
+  }
+  .c35 {
+    background-color: #00bdaa;
+  }
+  
+  .c36 {
+    background-color: #ff7272;
+  }
+  .c37 {
+    background-color: #ffb385;
+  }
+  
+  .c38 {
+    background-color: #ffd31d;
+  }
+  .c39 {
+    background-color: #00a8cc;
+  }
+  
+  .c40 {
+    background-color: #f4e04d;
+  }
+  .c41 {
+    background-color: #d7385e;
+  }
+  
+  .c42 {
+    background-color: #363062;
+  }
+  .c43 {
+    background-color: #4d4c7d;
+  }
+  
+  .c44 {
+    background-color: #fb7b6b;
+  }
+  .c45 {
+    background-color: #d7385e;
+  }
+  
+  .c46 {
+    background-color: #522d5b;
+  }
+  .c47 {
+    background-color: #aeefec;
+  }
+  
+  .c48 {
+    background-color: #eb4559;
+  }
+  .c49 {
+    background-color: #4cd3c2;
+  }
+  .c50 {
+    background-color: #363636;
+  }
+  .c51 {
+    background-color: #00bcd4;
+  }
+  .c52 {
+    background-color: #f4e04d;
+  }
+  .c53 {
+    background-color: #ea6227;
+  }
+  .c54 {
+    background-color: #342ead;
+  }
+  .c55 {
+    background-color: #442727;
+  }
+  .c56 {
+    background-color: #efa8e4;
+  }
+  .c57 {
+    background-color: #ffbd69;
+  }
+  .c58 {
+    background-color: #ff6363;
+  }
+  .c59 {
+    background-color: #543864;
+  }
+  .c60 {
+    background-color: #c70039;
+  }
+  .c61 {
+    background-color: #900c3f;
+  }
+  .c62 {
+    background-color: #f0a500;
+  }
+  .c63 {
+    background-color: #0779e4;
+  }
+  .c64 {
+    background-color: #d8345f;
+  }
+  .c65 {
+    background-color: #fa744f;
+  }
+  .c66 {
+    background-color: #16817a;
+  }
+  .c67 {
+    background-color: #f40552;
+  }
+  .c68 {
+    background-color: #162447;
+  }
+  .c69 {
+    background-color: #6a097d;
+  }
+  .c70 {
+    background-color: #e71414;
+  }
+  .c71 {
+    background-color: #f54291;
+  }
+  .c72 {
+    background-color: #e7305b;
+  }
+  .c73 {
+    background-color: #fa26a0;
+  }
+  .c74 {
+    background-color: #e8505b;
+  }
+  .c75 {
+    background-color: #251f44;
+  }
+  .c76 {
+    background-color: #00bcd4;
+  }
+  .c77 {
+    background-color: #91d18b;
+  }
+  .c78 {
+    background-color: #ffaa71;
+  }
+  .c79 {
+    background-color: #2d4059;
+  }
+  .c80 {
+    background-color: #81b214;
+  }
+  .c81 {
+    background-color: #ff4b5c;
+  }
+  .c82 {
+    background-color: #d2e603;
+  }
+  .c83 {
+    background-color: #2ec1ac;
+  }
+  .c84 {
+    background-color: #28df99;
+  }
+  .c85 {
+    background-color: #99f3bd;
+  }
+  .c86 {
+    background-color: #ffb0b0;
+  }
+  .c87 {
+    background-color: #d789d7;
+  }
+  .c88 {
+    background-color: #5d54a4;
+  }
+  .c89 {
+    background-color: #006a71;
+  }
+  .c90 {
+    background-color: #931a25;
+  }
+  .c91 {
+    background-color: #821752;
+  }
+  .c92 {
+    background-color: #ff414d;
+  }
+  .c93 {
+    background-color: #32e0c4;
+  }
+  .c94 {
+    background-color: #ccf6c8;
+  }
+  .c95 {
+    background-color: #7579e7;
+  }
+  .c96 {
+    background-color: #a6f6f1;
+  }
+  .c97 {
+    background-color: crimson;
+  }
+  .c98 {
+    background-color: turquoise;
+  }
+  .c99 {
+    background-color: gold;
+  }
+  .c100 {
+    background-color: #353535;
+  }
+  /* .color:hover {
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px rgba(26, 25, 25, 0.397);
+    /* border: 3px solid cyan; */
+    /* border-radius: 5px; */
+  /* } */ 
+  
+  /* .color:hover{
+      background-color: green;
+  } */
+  
