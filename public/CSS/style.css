@@ -56,7 +56,7 @@
      margin: 2rem;
     padding: 1rem; 
   }
-  nav a:hover {
+  nav a:hover,.active {
     background-color: cyan;
     color: black;
   }
@@ -76,8 +76,21 @@
     /* border: 3px solid cyan; */
 
   }
+
+
+  h3{
+      text-align: center;
+      font-size: 1.6rem;
+      margin-top: 1.5rem;
+      background-color: #212529ac;
+    padding: .3rem;
+      font-weight: 500;
+    /* box-shadow: 5px 5px 5px rgba(26, 25, 25, 0.397); */
+
+     
+  }
   .c1 {
-    background-color: tomato;
+    background-color: #FF6347;
   }
   
   .c2 {
@@ -400,6 +413,7 @@
   .c100 {
     background-color: #353535;
   }
+
   /* .color:hover {
     width: 200px;
     height: 200px;
